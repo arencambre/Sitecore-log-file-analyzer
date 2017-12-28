@@ -9,7 +9,11 @@
     <Platform Condition="'$(Platform)' == ''">AnyCPU</Platform>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupFile>Sitecore log analysis.R</StartupFile>
+    <StartupFile>Sitecore log loader.R</StartupFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <SettingsFile>
+    </SettingsFile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

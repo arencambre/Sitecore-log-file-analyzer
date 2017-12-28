@@ -1,0 +1,1 @@
+logpath = "C:/temp/ssc1pwa3 logs"
